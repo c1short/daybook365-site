@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Daybook">
+  <rect class="mk-bg" width="120" height="120" rx="28" fill="#123B30"/>
+  <path class="mk-fg" d="M36 60a24 24 0 0 1 48 0z" fill="#F4EFE2"/>
+  <rect class="mk-fg" x="24" y="68" width="72" height="7" rx="3.5" fill="#F4EFE2"/>
+  <rect class="mk-fg" x="24" y="82" width="48" height="7" rx="3.5" fill="#F4EFE2" opacity=".6"/>
+</svg>

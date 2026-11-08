@@ -1,0 +1,23 @@
+@font-face{font-family:"Plus Jakarta Sans";src:url(plus-jakarta-sans-latin.woff2) format("woff2");font-weight:400 800;font-display:swap}
+:root{--ledger:#123B30;--green:#2F8F5B;--paper:#F4EFE2;--ink:#1c2a25;--muted:#55645e;--line:#ddd6c4}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "Plus Jakarta Sans",-apple-system,"Segoe UI",sans-serif}
+a{color:var(--ledger);text-underline-offset:3px}
+.top{background:var(--ledger);color:var(--paper)}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+.brand{display:flex;align-items:center;gap:12px;padding:20px 0;color:var(--paper);text-decoration:none;font-weight:800;font-size:22px;letter-spacing:-.01em}
+.brand img{width:36px;height:36px;border-radius:9px;outline:1px solid rgba(244,239,226,.25)}
+.brand b{color:#6fc795;font-weight:800}
+.hero{padding:44px 0 64px}
+.hero h1{margin:0 0 16px;font-size:clamp(34px,7vw,54px);line-height:1.08;font-weight:800;letter-spacing:-.02em}
+.hero p{margin:0;font-size:19px;max-width:32em;color:#dfe6dc}
+main{padding:36px 0 48px}
+main h1{margin:0 0 4px;font-size:32px;line-height:1.2;font-weight:800;letter-spacing:-.015em;color:var(--ledger)}
+main h2{margin:30px 0 6px;font-size:19px;font-weight:700;color:var(--ledger)}
+main p,main ul{margin:0 0 12px}
+main ul{padding-left:22px}
+.date{color:var(--muted);font-size:15px;margin-bottom:22px}
+footer{border-top:1px solid var(--line);padding:20px 0 32px;color:var(--muted);font-size:15px}
+footer a{color:var(--muted);margin-right:16px}
+footer p{margin:10px 0 0}
